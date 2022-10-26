@@ -36,7 +36,7 @@ const addToCart = (product) => {
 while (buying) {
   let products = parseInt(
     prompt(
-      "Elija que producto desea agregar al carrito: 1.AceiteFullSpectrumCBD($5200), 2.CremaCBD($1800), 3.AceiteMascotasCBD($1500), 4.PomadaCutisCBD($800"
+      "Elija que producto desea agregar al carrito: 1.AceiteFullSpectrumCBD($5200), 2.CremaCBD($1800), 3.AceiteMascotasCBD($1500), 4.PomadaCutisCBD($800)"
     )
   );
   addToCart(products);
